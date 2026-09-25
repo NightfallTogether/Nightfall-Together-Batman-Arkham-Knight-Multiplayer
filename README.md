@@ -3,7 +3,7 @@
 <h1 align="center">Nightfall Together</h1>
 
 <p align="center">
-  <strong>Online co-op for <em>Batman: Arkham Knight</em> on Steam PC</strong>
+  <strong>Online co-op for <em>Batman: Arkham Knight</em> on Steam PC, powered by Nightfall Network</strong>
 </p>
 
 <p align="center">
