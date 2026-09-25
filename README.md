@@ -23,7 +23,7 @@
 > **Development Status — Active development, playable with testers**
 >
 > Most systems are built and many have been verified across two PCs.  
-> The full campaign is **not yet playable from beginning to end in co-op**.
+> The full campaign is **not yet playable from beginning to end in co-op** Crashing still occurs at times due to active development.
 >
 > See the [completion checklist](#completion-checklist) for current progress.
 
