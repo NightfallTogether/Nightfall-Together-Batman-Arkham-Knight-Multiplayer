@@ -1,3 +1,4 @@
+<img width="1899" height="1056" alt="NT_1" src="https://github.com/user-attachments/assets/9db06757-cb90-4ce8-9e34-84eba29f47b7" />
 # Nightfall Together
 
 **Online co-op for *Batman: Arkham Knight* (Steam, PC).** Two to four players
@@ -13,6 +14,7 @@ distributed here. You need your own copy of the game and any DLC you want to
 use.
 
 ---
+<img width="1834" height="999" alt="NT_2" src="https://github.com/user-attachments/assets/c851fcad-908e-4aa4-a71f-60d462446321" />
 
 ## What it does today
 
@@ -102,7 +104,7 @@ The finish line, in order:
 7. A finished product: menus, installer, privacy and release packaging.
 
 ---
-
+<img width="2560" height="1440" alt="NT_4" src="https://github.com/user-attachments/assets/04594b83-557a-48f5-9159-88387325641c" />
 ## Completion checklist
 
 Legend: ✅ working and verified on two PCs · 🟨 built, awaiting two-PC
@@ -188,6 +190,8 @@ include new features.
 - 🟨 Tester package and installer
 - ⬜ Ship mode (evidence logging off for players)
 - ⬜ Public release packaging
+
+<img width="1877" height="1048" alt="NT_3" src="https://github.com/user-attachments/assets/2e25610d-c8dd-4b20-9231-193e0ce68793" />
 
 ---
 
