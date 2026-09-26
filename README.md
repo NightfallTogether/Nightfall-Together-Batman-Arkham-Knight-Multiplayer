@@ -49,12 +49,13 @@ This repository documents the project. **The source code is private and no proje
 - **Collective pause** — The world stops only when everyone is paused. Paused or AFK players are protected.
 - **Lobby settings** controlled by the host, including enemy-count scaling from **1x to 3x**.
 
+<img width="1882" height="1058" alt="NT_5" src="https://github.com/user-attachments/assets/ef7194c5-7ffe-44e0-8a40-58e6498fe5ab" />
+
 ### Characters
 
 **Current playable roster:**
 
 Batman · Robin · Nightwing · Catwoman · Azrael · Batgirl · Red Hood · Harley Quinn · Joker · Deathstroke
-<img width="1882" height="1058" alt="NT_5" src="https://github.com/user-attachments/assets/ef7194c5-7ffe-44e0-8a40-58e6498fe5ab" />
 
 **Additional stand-in characters:**
 
