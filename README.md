@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="#what-it-does-today">Features</a> •
+  <a href="#modes">Modes</a> •
   <a href="#goal">Goal</a> •
   <a href="#completion-checklist">Completion Checklist</a> •
   <a href="#requirements-testers">Requirements</a> •
@@ -44,7 +45,7 @@ This repository documents the project. **The source code is private and no proje
 - **Up to four players** in the same open-world Gotham, each controlling their own character.
 - **Join Teammate** — A pause-menu option moves you beside a teammate, or into their current area if they are elsewhere.
 - **Team HUD** — Displays each player's character, health and status, including downed, paused, AFK and vehicle states.
-- **World markers** — Teammate name tags, compass markers, city-map markers and player pings.
+- **World markers** — Teammate name tags, compass markers, city-map markers and player pings, each in that character's colour.
 - **Proximity voice chat.**
 - **Collective pause** — The world stops only when everyone is paused. Paused or AFK players are protected.
 - **Lobby settings** controlled by the host, including enemy-count scaling from **1x to 3x**.
@@ -57,11 +58,15 @@ This repository documents the project. **The source code is private and no proje
 
 Batman · Robin · Nightwing · Catwoman · Azrael · Batgirl · Red Hood · Harley Quinn · Joker · Deathstroke
 
-**Additional stand-in characters:**
+**Stand-in villains** — their own look, on a compatible playable body:
 
-Scarecrow · Two-Face · Professor Pyg · Penguin · Riddler
+Scarecrow (Nightwing) · Two-Face (Azrael) · Professor Pyg (Harley Quinn) · Penguin (Batgirl) · Riddler (Catwoman)
 
-The stand-in villains use compatible character bodies with borrowed animation sets where necessary.
+**Community roles:**
+
+- **Militia Grunt** — Red Hood's guns and movement, in the militia uniform. You play in first person; everyone else sees the grunt in third person. This is a character, not a game mode. It needs the Red Hood story pack.
+- **GCPD Officer** — the game's first-person officer. Allied with Batman and the Bat-family, and hostile to militia. No glide and no grapple.
+- **Invader** — Deathstroke's appearance on Nightwing's movement. Choosing Invader starts an invasion. See [Modes](#modes).
 
 - Switch characters at any time using the in-game character chooser.
 - Other players see your selected character's appearance, movement and colour.
@@ -72,8 +77,18 @@ The stand-in villains use compatible character bodies with borrowed animation se
   - Takedowns
   - Gadgets
   - Detective Mode
+- The GCPD officer is the exception on traversal: that body is first person and has no glide or grapple.
 - Players who do not own a character's required DLC see a stand-in rather than a broken or missing character.
 <img width="2494" height="1394" alt="NT_6" src="https://github.com/user-attachments/assets/94728100-8dbc-4381-8f54-2929ad16f5ad" />
+
+### Modes
+
+Co-op campaign is the default. These two modes are separate from it, and from each other. Picking the militia grunt in an ordinary session does not start either one.
+
+- **Manhunt** — a host session setting. The party travels into one interior, chosen at random from GCPD, Panessa Studios and Ace Chemicals, then back to the city when the round ends. Militia play at a locked 65° field of view with extra health. They win by reaching the extraction. Batman wins by thinning them out before the countdown ends. The round does not write the campaign save. Open-world manhunt is not in this build.
+- **Invasion** — starts when a player is the Invader, and ends when that player leaves the role. The invader wins by taking every defender down or reaching the objective. The defenders win by finishing the encounter first. Invasion does not use manhunt's camera, health or travel.
+
+Not in this build: bounty races, and a director who places enemies.
 
 ### Combat and stealth
 
@@ -205,7 +220,7 @@ For Nightfall Together, **"in sync"** means a system is wired end to end with th
 🟨 **Built, awaiting two-PC verification**  
 ⬜ **Not completed**
 
-This checklist covers completion of the base game and its DLC in co-op. It does not include potential future features outside that scope.
+This checklist covers completion of the base game and its DLC in co-op. Community roles and modes are listed separately. They are in the current tester build and still awaiting two-PC verification.
 
 ### Foundation
 
@@ -225,9 +240,17 @@ This checklist covers completion of the base game and its DLC in co-op. It does 
 - 🟨 Character switching displayed correctly on every screen
 - 🟨 Every character at Batman parity for traversal, combat and gadgets
 - 🟨 Stand-in villains — Scarecrow, Two-Face, Pyg, Penguin and Riddler
+- 🟨 Militia Grunt, GCPD Officer and Invader in the character chooser
 - 🟨 Downed state, revive, death floor and respawn
 - ✅ Team HUD, name tags, compass and map markers
 - 🟨 Proximity voice chat
+
+### Community modes
+
+- 🟨 Manhunt — interior round in GCPD, Panessa Studios or Ace Chemicals, then back to the city
+- 🟨 Invasion — starts when a player is the Invader
+- ⬜ Bounty races
+- ⬜ Director mode
 
 ### Enemies and combat
 
