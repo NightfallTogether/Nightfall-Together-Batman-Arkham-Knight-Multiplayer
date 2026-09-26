@@ -141,7 +141,7 @@ If a player falls through unloaded or missing world geometry, the system attempt
 - **Separate co-op save system** — Your normal single-player save is never overwritten by a co-op session. Party progression is stored in the mod's own save sidecar.
 
 ---
-
+<img width="2560" height="1440" alt="NT_4" src="https://github.com/user-attachments/assets/04594b83-557a-48f5-9159-88387325641c" />
 ## Goal
 
 > **The full shipped single-player game, playable by two to four people simultaneously, with every relevant entity synchronized and every playable character brought as close to Batman gameplay parity as possible.**
@@ -195,8 +195,7 @@ For Nightfall Together, **"in sync"** means a system is wired end to end with th
    - Release packaging
 
 ---
-
-<img width="2560" height="1440" alt="NT_4" src="https://github.com/user-attachments/assets/04594b83-557a-48f5-9159-88387325641c" />
+<img width="1877" height="1048" alt="NT_3" src="https://github.com/user-attachments/assets/2e25610d-c8dd-4b20-9231-193e0ce68793" />
 
 ## Completion checklist
 
@@ -322,8 +321,6 @@ This checklist covers completion of the base game and its DLC in co-op. It does 
 - 🟨 Tester package and installer
 - ⬜ Ship mode — evidence logging disabled for players
 - ⬜ Public release packaging
-
-<img width="1877" height="1048" alt="NT_3" src="https://github.com/user-attachments/assets/2e25610d-c8dd-4b20-9231-193e0ce68793" />
 
 ---
 
