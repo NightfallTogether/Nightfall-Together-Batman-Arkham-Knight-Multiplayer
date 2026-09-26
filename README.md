@@ -54,6 +54,7 @@ This repository documents the project. **The source code is private and no proje
 **Current playable roster:**
 
 Batman · Robin · Nightwing · Catwoman · Azrael · Batgirl · Red Hood · Harley Quinn · Joker · Deathstroke
+<img width="1882" height="1058" alt="NT_5" src="https://github.com/user-attachments/assets/ef7194c5-7ffe-44e0-8a40-58e6498fe5ab" />
 
 **Additional stand-in characters:**
 
@@ -71,6 +72,7 @@ The stand-in villains use compatible character bodies with borrowed animation se
   - Gadgets
   - Detective Mode
 - Players who do not own a character's required DLC see a stand-in rather than a broken or missing character.
+<img width="2494" height="1394" alt="NT_6" src="https://github.com/user-attachments/assets/94728100-8dbc-4381-8f54-2929ad16f5ad" />
 
 ### Combat and stealth
 
