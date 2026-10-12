@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-  Two to four players. One Gotham. One shared campaign.
+  Two to five players. One Gotham. One shared campaign.
 </p>
 
 <p align="center">
   <a href="#what-it-does-today">Features</a> •
-  <a href="#modes">Modes</a> •
+  <a href="#game-modes">Game Modes</a> •
   <a href="#goal">Goal</a> •
   <a href="#completion-checklist">Completion Checklist</a> •
   <a href="#requirements-testers">Requirements</a> •
@@ -28,7 +28,7 @@
 >
 > See the [completion checklist](#completion-checklist) for current progress.
 
-**Nightfall Together** is a multiplayer project that lets two to four players share the same Gotham — the same enemies, fights, world state, missions and story — while each player controls the character they choose.
+**Nightfall Together** is a multiplayer project that lets two to five players share the same Gotham — the same enemies, fights, world state, missions and story — while each player controls the character they choose.
 
 This repository documents the project. **The source code is private and no project files are distributed here.** Each player must own their own copy of *Batman: Arkham Knight* and any DLC they want to use.
 
@@ -42,10 +42,12 @@ This repository documents the project. **The source code is private and no proje
 
 - **Steam lobbies and invites** — Host from the in-game menu and invite friends, or join a friend's lobby.
 - **Late joining** — Players joining an existing session catch up to the current world state using a rebuilt baseline plus the events that have occurred since.
-- **Up to four players** in the same open-world Gotham, each controlling their own character.
+- **Up to five players** in the same open-world Gotham, each controlling their own character.
+- **Host migration** — if the host leaves, another player takes over and the lobby rules, voice mutes and menu rows carry across.
 - **Join Teammate** — A pause-menu option moves you beside a teammate, or into their current area if they are elsewhere.
 - **Team HUD** — Displays each player's character, health and status, including downed, paused, AFK and vehicle states.
-- **World markers** — Teammate name tags, compass markers, city-map markers and player pings, each in that character's colour.
+- **World markers** — Teammate name tags, compass markers, city-map markers and player pings, each in that character's colour. Press ping again to cancel your own.
+- **Same character, different players** — two players on the same character get their own marker colour and a numbered label, and notices name the player.
 - **Proximity voice chat.**
 - **Collective pause** — The world stops only when everyone is paused. Paused or AFK players are protected.
 - **Lobby settings** controlled by the host, including enemy-count scaling from **1x to 3x**.
@@ -62,13 +64,17 @@ Batman · Robin · Nightwing · Catwoman · Azrael · Batgirl · Red Hood · Har
 
 Scarecrow (Nightwing) · Two-Face (Azrael) · Professor Pyg (Harley Quinn) · Penguin (Batgirl) · Riddler (Catwoman)
 
-**Community roles:**
+**Game-mode roles** — requested on the Game Modes tab, not picked in the chooser:
 
-- **Militia Grunt** — Red Hood's guns and movement, in the militia uniform. You play in first person; everyone else sees the grunt in third person. This is a character, not a game mode. It needs the Red Hood story pack.
-- **GCPD Officer** — the game's first-person officer. Allied with Batman and the Bat-family, and hostile to militia. No glide and no grapple.
-- **Invader** — Deathstroke's appearance on Nightwing's movement. Choosing Invader starts an invasion. See [Modes](#modes).
+- **Militia** — a Manhunt role: Red Hood's guns and movement in the militia uniform, at a locked 65° view with extra health. It needs the Red Hood story pack. A full first-person rifle is in development.
+- **Invader** — an Invasion role: Deathstroke's appearance on Nightwing's movement.
+- **Zsasz** — the hunted player in Last Known (in development).
+- **GCPD Officer** — hidden from the chooser until the first-person rifle is ready.
 
-- Switch characters at any time using the in-game character chooser.
+When a role ends, your own character comes back automatically.
+
+- Switch characters at any time using the in-game character chooser. Each character has a short description, and a character you cannot pick says why (a DLC this PC lacks, a game-mode role, or the host's game cannot use it).
+- Every playable character speaks with its own voice.
 - Other players see your selected character's appearance, movement and colour.
 - Each character is being brought toward **Batman gameplay parity** where possible:
   - Glide or equivalent traversal
@@ -78,17 +84,17 @@ Scarecrow (Nightwing) · Two-Face (Azrael) · Professor Pyg (Harley Quinn) · Pe
   - Gadgets
   - Detective Mode
 - The GCPD officer is the exception on traversal: that body is first person and has no glide or grapple.
-- Players who do not own a character's required DLC see a stand-in rather than a broken or missing character.
+- Players who do not own a character's required DLC see a stand-in rather than a broken or missing character, marked (STAND-IN) on the team HUD. If the host swaps your character, you are told once, with the reason.
 <img width="2494" height="1394" alt="NT_6" src="https://github.com/user-attachments/assets/94728100-8dbc-4381-8f54-2929ad16f5ad" />
 
-### Modes
+### Game Modes
 
-Co-op campaign is the default. These two modes are separate from it, and from each other. Picking the militia grunt in an ordinary session does not start either one.
+Co-op campaign is the default. The host picks and sets up every other mode on one **GAME MODES** tab in the ROOM menu (switch tabs with Q/E or LB/RB). Players ask for a role there, the host's game decides, and a refusal is explained in one line.
 
-- **Manhunt** — a host session setting. The party travels into one interior, chosen at random from GCPD, Panessa Studios and Ace Chemicals, then back to the city when the round ends. Militia play at a locked 65° field of view with extra health. They win by reaching the extraction. Batman wins by thinning them out before the countdown ends. The round does not write the campaign save. Open-world manhunt is not in this build.
-- **Invasion** — starts when a player is the Invader, and ends when that player leaves the role. The invader wins by taking every defender down or reaching the objective. The defenders win by finishing the encounter first. Invasion does not use manhunt's camera, health or travel.
-
-Not in this build: bounty races, and a director who places enemies.
+- **Manhunt** — Militia against Hunters. The host sets round length, extractions, militia health, field of view and the place (GCPD, Panessa Studios or Ace Chemicals) and starts the round from the tab. Settings hold for the whole round. Militia win by reaching the extraction; the hunters win by thinning them out before the countdown ends. The round does not write the campaign save.
+- **Invasion** — player-versus-player. The host selects Invasion and a player takes the Invader role. PvP is only on while a round is running; between rounds everyone is a teammate again. Opposing players trade punches, finishers, cape stuns and car hits, respawn with their own side, and the host keeps a kill and death score.
+- **One Night in Gotham** (in development) — a director-run night of city incidents for the whole party.
+- **Last Known** (in development) — one player is Zsasz, the rest hunt him by investigation. His live position is never shown to the heroes, not even to a hero host.
 
 ### Combat and stealth
 
@@ -108,7 +114,9 @@ Not in this build: bounty races, and a director who places enemies.
 - Shared enemy types and encounters include gunmen, brutes, medics, shields, ninjas, drones, tanks and APCs.
 - **Predator rooms** — Guards can see and hear every player; takedowns, alarms and fear states are shared.
 - **Downed and revive system** — A downed player can be revived by a teammate, while enemies stop targeting the downed player.
-- **Bosses** use shared health and synchronized finishes.
+- **Bosses** use shared health and synchronized finishes. Bosses, tanks and drones scale with the number of players.
+- Splash damage enemies cause to a teammate lands on that teammate.
+- Informants can be interrogated by every playable character on the host.
 
 ### World and traversal
 
@@ -139,7 +147,8 @@ World interactions stay synchronized between players, including:
 
 - Every player can have their own Batmobile.
 - Driving and battle mode are replicated to other players.
-- Winch interactions, weapons and vehicle damage are synchronized.
+- Winch interactions, weapons and vehicle damage are synchronized, including the Vulcan, the riot suppressor, missile barrages, the EMP pulse and the drone virus.
+- Passenger seats are claimed one rider per seat, and the Batmobile-only doors open only for a player in the car.
 - Traffic and enemy vehicles are shared.
 
 **Fall recovery**
@@ -148,10 +157,10 @@ If a player falls through unloaded or missing world geometry, the system attempt
 
 ### Progression and side content
 
-- **Missions** — The host drives story progression while objectives, mission selections and Most Wanted progression are followed by the party.
-- **XP and upgrades** are shared by the party.
+- **Missions** — The host drives story progression while objectives, mission selections and Most Wanted progression are followed by the party. A story cutscene waits up to 20 seconds for far teammates and skips anyone AFK, paused, downed or loading.
+- **XP and upgrades** are shared by the party, with a +XP line for teammates.
 - **Riddler content** — Trophies, riddles, cages and switches count for the group.
-- **AR Challenges** can be played together.
+- **AR Challenges** can be played together. Challenge packs are offered only when every member owns them.
 - **New Game Plus and Knightmare** follow the host's selected difficulty.
 - **Separate co-op save system** — Your normal single-player save is never overwritten by a co-op session. Party progression is stored in the mod's own save sidecar.
 
@@ -159,14 +168,14 @@ If a player falls through unloaded or missing world geometry, the system attempt
 <img width="2560" height="1440" alt="NT_4" src="https://github.com/user-attachments/assets/04594b83-557a-48f5-9159-88387325641c" />
 ## Goal
 
-> **The full shipped single-player game, playable by two to four people simultaneously, with every relevant entity synchronized and every playable character brought as close to Batman gameplay parity as possible.**
+> **The full shipped single-player game, playable by two to five people simultaneously, with every relevant entity synchronized and every playable character brought as close to Batman gameplay parity as possible.**
 
 For Nightfall Together, **"in sync"** means a system is wired end to end with the networking behavior expected from an actual multiplayer game — including interpolation and prediction where appropriate — rather than merely appearing approximately similar between machines.
 
 ### The finish line
 
 1. **Full campaign completion**  
-   Two players, followed by three and four players, complete Chapters 1–27 through Knightfall without a blocking desync.
+   Two players, followed by three, four and five players, complete Chapters 1–27 through Knightfall without a blocking desync.
 
 2. **Complete entity synchronization**  
    Every relevant entity visible to a player is synchronized:
@@ -228,9 +237,10 @@ This checklist covers completion of the base game and its DLC in co-op. Communit
 - ✅ Late join — baseline + event tail
 - ✅ Network transport, rate limits and session integrity
 - 🟨 Reconnect with every system restored
-- ⬜ Host migration when the host leaves
+- 🟨 Host migration when the host leaves
 - ⬜ Three-player sessions verified
 - ⬜ Four-player sessions verified
+- ⬜ Five-player sessions verified
 - ⬜ Four-hour soak test within performance budget
 
 ### Players and characters
@@ -240,17 +250,19 @@ This checklist covers completion of the base game and its DLC in co-op. Communit
 - 🟨 Character switching displayed correctly on every screen
 - 🟨 Every character at Batman parity for traversal, combat and gadgets
 - 🟨 Stand-in villains — Scarecrow, Two-Face, Pyg, Penguin and Riddler
-- 🟨 Militia Grunt, GCPD Officer and Invader in the character chooser
+- 🟨 Game-mode roles (Militia, Invader) granted on the Game Modes tab; your own character restored afterwards
 - 🟨 Downed state, revive, death floor and respawn
 - ✅ Team HUD, name tags, compass and map markers
 - 🟨 Proximity voice chat
 
 ### Community modes
 
-- 🟨 Manhunt — interior round in GCPD, Panessa Studios or Ace Chemicals, then back to the city
-- 🟨 Invasion — starts when a player is the Invader
-- ⬜ Bounty races
-- ⬜ Director mode
+- 🟨 Game Modes tab — one place to pick, configure, staff and start a mode
+- 🟨 Manhunt — roles, round settings and start/end on the tab
+- 🟨 Invasion — full player-versus-player in progress (roles, PvP only while live, cape stuns, car hits, kill score)
+- ⬜ Manhunt first-person rifle for militia and GCPD
+- ⬜ One Night in Gotham
+- ⬜ Last Known
 
 ### Enemies and combat
 
