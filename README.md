@@ -30,7 +30,7 @@
 
 **Nightfall Together** is a multiplayer project that lets two to five players share the same Gotham — the same enemies, fights, world state, missions and story — while each player controls the character they choose.
 
-This repository documents the project. **The source code is private and no project files are distributed here.** Each player must own their own copy of *Batman: Arkham Knight* and any DLC they want to use.
+This repository documents the project. **The source code is private and no project files are distributed here.** Each player must own their own copy of *Batman: Arkham Knight* and any DLC they want to use. To play together: https://www.patreon.com/cw/NightfallTogether
 
 ---
 
