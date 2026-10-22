@@ -32,6 +32,10 @@
 
 This repository documents the project. **The source code is private and no project files are distributed here.** Each player must own their own copy of *Batman: Arkham Knight* and any DLC they want to use. To play together: https://www.patreon.com/cw/NightfallTogether
 
+<p align="center">
+  <img src="assets/progress.svg" alt="Estimated progress: about 15% overall. Foundation ~40%, players and characters ~40%, enemies and combat ~30%, world ~20%, Batmobile ~20%, side content ~20%, product ~20%, community modes ~15%, campaign ~10%, story DLC 0%." width="820">
+</p>
+
 ---
 
 <img width="1834" height="999" alt="NT_2" src="https://github.com/user-attachments/assets/c851fcad-908e-4aa4-a71f-60d462446321" />
