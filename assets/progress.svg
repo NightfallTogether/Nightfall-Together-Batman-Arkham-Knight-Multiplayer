@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="540" viewBox="0 0 820 540" font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<rect width="820" height="540" rx="14" fill="#0d1117" stroke="#30363d"/>
+<text x="40" y="48" font-size="22" font-weight="700" fill="#e6edf3">Road to the finish line</text>
+<text x="40" y="72" font-size="13" fill="#8b949e">A deliberately conservative estimate. Built-but-unverified work counts for very little.</text>
+<text x="40" y="112" font-size="15" font-weight="600" fill="#e6edf3">Overall</text>
+<rect x="270" y="98" width="470" height="18" rx="9" fill="#21262d"/>
+<rect x="270" y="98" width="70" height="18" rx="9" fill="#f2c94c"/>
+<text x="780" y="112" font-size="15" font-weight="700" fill="#f2c94c" text-anchor="end">~15%</text>
+<line x1="40" y1="136" x2="780" y2="136" stroke="#30363d"/>
+<text x="40" y="165" font-size="14" fill="#c9d1d9">Foundation</text>
+<rect x="270" y="154" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="154" width="188" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="165" font-size="14" fill="#8b949e" text-anchor="end">~40%</text>
+<text x="40" y="199" font-size="14" fill="#c9d1d9">Players and characters</text>
+<rect x="270" y="188" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="188" width="188" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="199" font-size="14" fill="#8b949e" text-anchor="end">~40%</text>
+<text x="40" y="233" font-size="14" fill="#c9d1d9">Enemies and combat</text>
+<rect x="270" y="222" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="222" width="141" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="233" font-size="14" fill="#8b949e" text-anchor="end">~30%</text>
+<text x="40" y="267" font-size="14" fill="#c9d1d9">World</text>
+<rect x="270" y="256" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="256" width="94" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="267" font-size="14" fill="#8b949e" text-anchor="end">~20%</text>
+<text x="40" y="301" font-size="14" fill="#c9d1d9">Batmobile</text>
+<rect x="270" y="290" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="290" width="94" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="301" font-size="14" fill="#8b949e" text-anchor="end">~20%</text>
+<text x="40" y="335" font-size="14" fill="#c9d1d9">Side content</text>
+<rect x="270" y="324" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="324" width="94" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="335" font-size="14" fill="#8b949e" text-anchor="end">~20%</text>
+<text x="40" y="369" font-size="14" fill="#c9d1d9">Product</text>
+<rect x="270" y="358" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="358" width="94" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="369" font-size="14" fill="#8b949e" text-anchor="end">~20%</text>
+<text x="40" y="403" font-size="14" fill="#c9d1d9">Community modes</text>
+<rect x="270" y="392" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="392" width="70" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="403" font-size="14" fill="#8b949e" text-anchor="end">~15%</text>
+<text x="40" y="437" font-size="14" fill="#c9d1d9">Campaign — Chapters 1–27</text>
+<rect x="270" y="426" width="470" height="12" rx="6" fill="#21262d"/>
+<rect x="270" y="426" width="47" height="12" rx="6" fill="#58a6ff"/>
+<text x="780" y="437" font-size="14" fill="#8b949e" text-anchor="end">~10%</text>
+<text x="40" y="471" font-size="14" fill="#c9d1d9">Story DLC episodes</text>
+<rect x="270" y="460" width="470" height="12" rx="6" fill="#21262d"/>
+<text x="780" y="471" font-size="14" fill="#8b949e" text-anchor="end">~0%</text>
+<text x="40" y="520" font-size="12" fill="#6e7681">Verified on two PCs counts fully; built but unverified counts about a third; percentages rounded down. Campaign weighs most.</text>
+</svg>

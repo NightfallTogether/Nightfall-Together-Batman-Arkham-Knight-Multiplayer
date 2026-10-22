@@ -231,6 +231,12 @@ For Nightfall Together, **"in sync"** means a system is wired end to end with th
 
 This checklist covers completion of the base game and its DLC in co-op. Community roles and modes are listed separately. They are in the current tester build and still awaiting two-PC verification.
 
+<p align="center">
+  <img src="assets/progress.svg" alt="Estimated progress: about 15% overall. Foundation ~40%, players and characters ~40%, enemies and combat ~30%, world ~20%, Batmobile ~20%, side content ~20%, product ~20%, community modes ~15%, campaign ~10%, story DLC 0%." width="820">
+</p>
+
+> These numbers are a rough, intentionally modest estimate drawn from the checklist below. Much of what is built has not yet been verified, and the full campaign is still the largest piece of work ahead.
+
 ### Foundation
 
 - ✅ Steam lobby, invites, join and admission
